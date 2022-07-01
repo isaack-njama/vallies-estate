@@ -2,6 +2,8 @@
 
 ### Vallie's Estate is a Real Estate web page inspired by our founder's desire to create quality urban lifestyles and build stronger communities
 
+<br/>
+
 # Getting Started
 
 ### These instructions will get you a copy of the project on your local machine 
@@ -15,11 +17,14 @@
 * Git
 * Visual Studio Code 
 
+<br/>
+
 ## Clone the repo
 
-`$ git clone https://github.com/isaack-mungui/vallies-estate.git`
-<br/>
-`$ cd vallies-estate`
+```
+$ git clone https://github.com/isaack-mungui/vallies-estate.git`
+$ cd vallies-estate
+```
 
 <br/>
 
