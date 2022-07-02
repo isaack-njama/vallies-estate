@@ -59,14 +59,29 @@ body {
     font-size: 30px;
 }
 
+#container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .location {
-    display: inline;
+    display: flex;
     padding: 10px 12px;
     width: 20%;
 }
 
+.type {
+    display: flex;
+    padding: 10px 12px;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
 .filter-text {
     display: inline;
+    text-align: justify;
 }
 
 #products {
@@ -113,7 +128,44 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+/* Images */
 
+.img1 {
+    width: 400px;
+    height: 350px;
+    float: right;
+    display: flex;
+}
+
+.address-mark {
+    width: 50px;
+    height: 50px;
+}
+
+.payment {
+    width: 50px;
+    height: 50px;
+}
+
+.secure {
+    width: 50px;
+    height: 50px;
+}
+
+.palace {
+    width: 150px;
+    height: 100px;
+}
+
+.ivy-rory {
+    width: 150px;
+    height: 100px;
+}
+
+.rexona {
+    width: 150px;
+    height: 100px;
+}
 
 
 /* Buttons */
@@ -142,7 +194,7 @@ body {
     display: block;
 }
 
-.fa fa-search {
+.fa .fa-search {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bolder;
     color: #0F298B;
@@ -151,19 +203,16 @@ body {
     padding:15px 5px 5px 10px;
 }
 
-
-/* Images */
-
-img {
-    height: 500px;
-    width: 00px;
-    display: inline;
-    float: right;
+.btn, .btn-primary {
+    color: #2549D3;
 }
+.
 
-img.preference {
+
+
+/* img.preference {
     float: left;
-}
+} */
 
 /* Esteemed Customers cards */
 .column {
@@ -191,32 +240,39 @@ img.preference {
 
 
 /* Footer */
-footer {
-    background-color: #2549D3;
-    color: white;
-}
 
 .footer {
+    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
-    display: inline;
+    display: flex;
     margin: 5px;
     background-color: #2549D3;
+    justify-content: center;
+    margin-top: 25px;
 }
 
-.company-name {
+table, tr, td {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+td, th {
+    width: 25vh;
+    height: 5vh;
+    vertical-align: middle;
+}
+
+#company-name {
     text-align: left;
     font-family: 'Oleo Script', cursive;
 }
 
-.company-description {
+#company-description {
     display: inline;
     text-align: left;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.resources {
-    text-decoration: none;
-}
 
 /* 0F298B */
 /* 2549D3 */
