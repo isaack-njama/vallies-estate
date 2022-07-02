@@ -2,7 +2,9 @@
 
 .navbar {
     display: inline;
-    margin: 5px;
+    margin: 20px;
+    padding: 50px;
+    border: 30px;
 }
 
 a {
@@ -43,11 +45,14 @@ body {
     background-color: #FAFAFA;
 }
 
-
+.help {
+    padding: 50px;
+}
 
 #find {
     display: block;
     color: #0F298B;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: bolder;
     font-size: 70px;
 }
@@ -55,7 +60,8 @@ body {
 #quality {
     font-family: 'Space Grotesk', sans-serif;
     display: block;
-    padding: 5px 5px 10px 10px;
+    /* padding: 5px 5px 10px 10px; */
+    padding: 10px 0 40px 10px;
     font-size: 30px;
 }
 
@@ -131,9 +137,12 @@ body {
 /* Images */
 
 .img1 {
-    width: 400px;
-    height: 350px;
+    position: absolute;
+    top: 120px;
+    right: 30px;
     float: right;
+    width: 720px;
+    height: 480px;
     display: flex;
 }
 
@@ -179,19 +188,21 @@ body {
     border-radius: 5px;
 }
 
-.learn-more {
+#learn-more {
     font-family: 'Space Grotesk', sans-serif;
     display: inline;
     background-color: #0F298B;
     color: white;
     border-radius: 5px;
-    font-size: large;
-    padding: 10px;
+    font-size: small;
+    padding: 16px;
     margin-right: 10px;
+    margin-top: 30px;
 }
 
 .fa .fa-play-circle {
     display: block;
+    size: 500px;
 }
 
 .fa .fa-search {
@@ -206,7 +217,7 @@ body {
 .btn, .btn-primary {
     color: #2549D3;
 }
-.
+y
 
 
 
@@ -216,7 +227,6 @@ body {
 
 /* Esteemed Customers cards */
 .column {
-    float: left;
     width: 25%;
     padding: 0 10px;
 }
@@ -241,7 +251,35 @@ body {
 
 /* Footer */
 
-.footer {
+
+footer {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #0F298B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+.brand {
+    justify-content: flex-start;
+}
+
+#brand-name {
+    justify-content: flex-start;
+    font-family: 'Oleo Script', cursive;
+}
+
+#brand-description {
+    display: inline;
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* .footer {
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
     display: flex;
@@ -262,7 +300,7 @@ td, th {
     vertical-align: middle;
 }
 
-#company-name {
+#brand-name {
     text-align: left;
     font-family: 'Oleo Script', cursive;
 }
@@ -271,7 +309,7 @@ td, th {
     display: inline;
     text-align: left;
     font-family: 'Space Grotesk', sans-serif;
-}
+} */
 
 
 /* 0F298B */
