@@ -1,0 +1,226 @@
+/* Navbar */
+
+.navbar {
+    display: inline;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a {
+    font-size: 40px;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.navbar a.navigation {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    color: black;
+    padding: 16px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+.navbar a.company {
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+.navbar a.home {
+    color: #2549D3;
+    font-weight: bold;
+}
+
+
+body {
+    background-color: #FAFAFA;
+}
+
+
+
+#find {
+    display: block;
+    color: #0F298B;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+#quality {
+    font-family: 'Space Grotesk', sans-serif;
+    display: block;
+    padding: 5px 5px 10px 10px;
+    font-size: 30px;
+}
+
+.location {
+    display: inline;
+    padding: 10px 12px;
+    width: 20%;
+}
+
+.filter-text {
+    display: inline;
+}
+
+#products {
+    text-align: left;
+    color: #0F298B;
+}
+
+#how-it-works {
+    text-align: center;
+    color: #0F298B;
+}
+
+#product-subheading {
+    text-align: center;
+}
+
+#why-choose-us {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0F298B;
+    font-weight: bolder;
+}
+
+#preference-description {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#featured-text {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0F298B;
+    font-weight: bolder;
+}
+
+#featured-description {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#reviews {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0F298B;
+    font-weight: bolder;
+}
+
+#reviews-description {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+
+/* Buttons */
+
+.navbar a.start{
+    font-family: 'Space Grotesk', sans-serif;
+    float: right;
+    font-size: large;
+    background-color: #2549D3;
+    color: white;
+    border-radius: 5px;
+}
+
+.learn-more {
+    font-family: 'Space Grotesk', sans-serif;
+    display: inline;
+    background-color: #0F298B;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fa .fa-play-circle {
+    display: block;
+}
+
+.fa fa-search {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+    color: #0F298B;
+    font-size: xx-large;
+    display: block;
+    padding:15px 5px 5px 10px;
+}
+
+
+/* Images */
+
+img {
+    height: 500px;
+    width: 00px;
+    display: inline;
+    float: right;
+}
+
+img.preference {
+    float: left;
+}
+
+/* Esteemed Customers cards */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+    display: block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;    
+}
+
+
+/* Footer */
+footer {
+    background-color: #2549D3;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    display: inline;
+    margin: 5px;
+    background-color: #2549D3;
+}
+
+.company-name {
+    text-align: left;
+    font-family: 'Oleo Script', cursive;
+}
+
+.company-description {
+    display: inline;
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.resources {
+    text-decoration: none;
+}
+
+/* 0F298B */
+/* 2549D3 */
+/* FAFAFA */
+
+/* Space Grotesk */
+/* Oleo script */
