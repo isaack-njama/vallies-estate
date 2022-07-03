@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="5">
+        <!-- <meta http-equiv="refresh" content="5"> -->
         <title>Vallie's Estate</title>
 
         <link rel="icon" type="image/x-icon" href="/assets/vallie estate/house.png">
         
+        <!-- Add Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
         <!-- Add font library -->
 
@@ -43,17 +45,22 @@
 
         <hr/>
 
-        <p class="help">
-            <span id="find">Helping you find the <br/> property of your <br/> dreams.</span>
-            <span id="quality">Creating quality urban lifestyles, building <br/> stronger communities</span>
-            <img src="/assets/vallie estate/image 1.png" class="img1">
 
-            <a href="#" id="learn-more">Learn More</a>
-            <i class="fa fa-play-circle" aria-hidden="true"></i>
-        </p>
+        <!-- Intro section -->
+        <div class="intro">
+            <p class="help">
+                <span id="find">Helping you find the <br/> property of your <br/> dreams.</span>
+                <span id="quality">Creating quality urban lifestyles, building <br/> stronger communities</span>
+                <img src="/assets/vallie estate/image 1.png" class="img1">
+
+                
+                <a href="#" id="learn-more">Learn More</a>
+                <i class="fa fa-play-circle fa-2x" aria-hidden="true"></i>
+            </p>
+        </div>
 
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="column">
                 <div class="card">
                     <div class="card-body">
@@ -81,146 +88,138 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div>  -->
 
-        <!-- <div id="container">
-            <div class="card">
-                <div class="location">
-                    <span>
-                        Location <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </span>
-                    <span class="filter-text">Lekki</span>
-                </div>
-                
-                <div class="type">
-                    <span>
-                        Property Type <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </span>
-                    <span class="filter-text">Duplex</span>
-
-                </div>
-                
-                <div class="price">
-                    <span>
-                        Max Price <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </span>
-                    <span class="filter-text">$10,000</span>
-                </div>
-                    
-
-                <button>
-                    <i class="fa fa-search" aria-hidden="true"></i> Search
-                </button>
-            </div>
-        </div> -->
 
         <!-- Products section -->
+        <div class="product-section">
+            <h1 id="products">Our Products</h1>
+            <h1 id="how-it-works">How it works</h1>
+            <h2 id="product-subheading">This is how our product works</h2>
+        </div> 
 
-        <h1 id="products">Our Products</h1>
-        <h1 id="how-it-works">How it works</h1>
-        <h2 id="product-subheading">This is how our product works</h2>
-
-
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/vallie estate/address mark.png" class="address-mark">
-                    <p id="find-home">Find Home</p>
-                    <p>
-                        Our properties are located at prime areas whereby
-                        there won't be a problem with transportation
-                    </p>
+        <div class="deck">
+            <div class="cards">      
+                <div class="card1">
+                    <img src="/assets/vallie estate/address mark.png" class="card-img-top" alt="Location">
+                    <h5 class="card-title">Find Home</h5>
+                    <p class="card-text">Our properties are located at<br/> prime areas whereby there<br/> won't be a problem with<br/> transportation</p>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/vallie estate/Smart house.png" class="payment">
-                    <p id="payment">Make payments</p>
-                    <p>
-                        Our estate comes with good network, portable water,
-                        24hrs light and round the clock security.
-                    </p>
+                <div class="card1">
+                    <img src="/assets/vallie estate/Smart house.png" class="card-img-top" alt="Smart House">
+                    <h5 class="card-title">Make payments</h5> 
+                    <p class="card-text">Our estates come with<br/> good network, portable<br/>water, 24hrs light and round<br/> the clock security.</p>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/vallie estate/Secure data protection with fingerprint and lock.png" class="secure">
-                    <p id="security">Make it Official</p>
-                    <p>
-                        We have been in business for over 32 years. For clients
-                        outside the country you can trust us to delier well.
-                    </p>
-                </div>
+                <div class="card1 card3">
+                    <img src="/assets/vallie estate/Secure data protection with fingerprint and lock.png" class="card-img-top" alt="Security">
+                    <h5 class="card-title">Make it Official</h5>
+                    <p class="card-text">We have been in business for<br/> over 32years. For clients<br/> outside the country you can<br/> trust us to deliver well.</p>  
+                  </div>
             </div>
         </div>
 
         <!-- Preference section -->
 
+        <img src="/assets/vallie estate/image 2.png" alt="Image 2" class="img2">
         <div class="preference">
-            <img src="/assets/vallie estate/image 2.png" alt="Image 2">
-            <p id="why-choose-us">
+            <h4 id="why-choose-us">
                 Why you should choose us.
-            </p>
+            </h>
             <p id="preference-description">
-                Creating quality urban lifestyles, building
-                stronger communities.
+                Creating quality urban lifestyles, building stronger <br/> communities.
             </p>
-            <i class="fa fa-check-square-o" aria-hidden="true"></i> World class
-            <i class="fa fa-check-square-o" aria-hidden="true"></i> Trusted
-            <i class="fa fa-check-square-o" aria-hidden="true"></i> Affordable
-            <i class="fa fa-check-square-o" aria-hidden="true"></i> Amenities
         </div>
+
+        <i class="fa fa-check-square-o" aria-hidden="true">
+            <p id="world-class">World class</p>
+        </i>
+        <i class="fa fa-check-square-o" aria-hidden="true">
+            <p id="trusted">Trusted</p>
+        </i> 
+        <i class="fa fa-check-square-o" aria-hidden="true">
+            <p id="affordable">Affordable</p>
+        </i> 
+        <i class="fa fa-check-square-o" aria-hidden="true">
+            <p id="amenities">Amenities</p>
+        </i> 
 
         <!-- Featured Properties section -->
 
         <div class="featured">
-            <p id="featured-text">Our Featured Properties.</p>
-            <p id="featured-description">
-                One of our biggest product to be featured and that
-                has sold out the most.
-            </p>
+            <h4 id="featured-text">Our Featured Properties.</h>
+            <p id="featured-description">One of our biggest product to be featured and that has sold<br/> out the most.</p>
         </div>
 
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/vallie estate/image 4.png" alt="The Palace" class="palace">
-                    <p id="palace">The Palace</p>
-                    <p id="palace-location">Lekki, phase 2</p>
-                    <p id="palace-type">Duplex</p>
-                    <p id="palace-price">$2,000</p>
+        <div class="deck-featured">
+            <div class="cards-featured">
+                
+                <div class="card1-featured">
+                    <img src="/assets/vallie estate/image 4.png" class="card-img-top-featured" alt="Location">
+                    <h5 class="card-title-featured">The Palace</h5>
+                    <p class="card-text-featured">Lekki, Phase 2</p>
+                    <p class="card-type-featured1">Duplex</p>
+                    <p class="card-price-featured1">$2,000</p>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/vallie estate/image 3.png" alt="IVY RORY" class="ivy-rory">
-                    <p id="ivy-rory">IVY RORY</p>
-                    <p id="ivy-rory-location">Lekki, phase 2</p>
-                    <p id="ivy-rory-type">Duplex</p>
-                    <p id="ivy-rory-price">$2,000</p>
+                <div class="card2-featured">
+                    <img src="/assets/vallie estate/image 3.png" class="card-img-top-featured" alt="Smart House">
+                    <h5 class="card-title-featured">IVY RORY</h5> 
+                    <p class="card-text-featured">Lekki, Phase 2</p>
+                    <p class="card-type-featured2">Duplex</p>
+                    <p class="card-price-featured2">$2,000</p>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="/assets/vallie estate/image 5.png" alt="REXONA" class="rexona">
-                    <p id="rexona">REXONA</p>
-                    <p id="rexona-location">Lekki, phase 2</p>
-                    <p id="rexona-type">Duplex</p>
-                    <p id="rexona-price">$2,000</p>
+                <div class="card3-featured">
+                    <img src="/assets/vallie estate/image 5.png" class="card-img-top-featured" alt="Smart House">
+                    <h5 class="card-title-featured">REXONA</h5> 
+                    <p class="card-text-featured">Lekki, Phase 2</p>
+                    <p class="card-type-featured3">Duplex</p>
+                    <p class="card-price-featured3">$2,000</p>
                 </div>
             </div>
         </div>
 
         <button>
-            <a href="#">View more</a>
+            <a href="#" id="view-more">View more</a>
         </button>
-
 
         <!-- Esteemed Customers section -->
 
-        <p id="reviews">Our Esteemed Customers</p>
-        <p id="reviews-description">This is what our clients are saying</p>
-        <div class="row">
+        <div class="customer-review">
+            <p id="reviews">Our Esteemed Customers</p>
+            <p id="reviews-description">This is what our clients are saying</p>
+        </div>
+
+        <div class="deck-reviews">
+            <div class="cards-reviews">
+                <div class="card1-review">
+                    <h4 class="card-title-review">Alex Godwin</h4>
+                    <h6 class="card-text-review">South Africa</h6>
+                    <p class="card-text-review">Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit. Fames ut<br/> dictumst urna, lorem nibh. Pretium leo<br/> hendrerit interdum netus</p>
+                </div>
+                <div class="card2-review">
+                    <h4 class="card-title-review">Alex Godwin</h4>
+                    <h6 class="card-text-review">South Africa</h6>
+                    <p class="card-text-review">Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit. Fames ut<br/> dictumst urna, lorem nibh. Pretium leo<br/> hendrerit interdum netus</p>
+                </div>
+                <div class="card3-review">
+                    <h4 class="card-title-review">Alex Godwin</h4>
+                    <h6 class="card-text-review">South Africa</h6>
+                    <p class="card-text-review">Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit. Fames ut<br/> dictumst urna, lorem nibh. Pretium leo<br/> hendrerit interdum netus</p>
+                </div>
+            </div>
+        </div>
+
+        <button>
+            <a href="#" id="view-more">View more</a>
+        </button>
+
+        <!-- <div class="customer-review">
+            <p id="reviews">Our Esteemed Customers</p>
+            <p id="reviews-description">This is what our clients are saying</p>
+        </div>
+
+        
+            
+        <div class="row esteemed">
             <div class="column">
                 <div class="card">
                     <p>Alex Godwin</p>
@@ -247,45 +246,31 @@
         </div>
         
         <button>
-            <a href="#">View more</a>
-        </button>
+            <a href="#" id="view-more">View more</a>
+        </button> -->
 
-
-        <!-- 
-            <th id="company-name">Vallie's Estate</th>
-            
-            <td>
-            <p id="company-description"> 
-                Solution for easy and flexible
-                house hunting. You can trust us
-                anywhere through this platform.
-            </p>
-        </td> -->
         <footer>
             <div class="brand">
                 <h4 id="brand-name">Vallie's Estate</h4>
                 <p id="brand-description">
-                    Solution for easy and flexible <br/>
-                    house hunting. You can trust us <br/>
-                    anywhere through this <br/>
-                    platform
+                    Solution for easy and flexible <br/> house hunting. You can trust us<br/>anywhere through this<br/>platform
                 </p>
             </div>
-            <div>
+            <div class="property">
                 <h4>Property</h4>
                 <p>Learning Modules</p>
                 <p>Partnership</p>
                 <p>Watch demo</p>
                 <p>Event</p>
             </div>
-            <div>
+            <div class="about">
                 <h4>About</h4>
                 <p>Our Company</p>
                 <p>Career</p>
                 <p>Investors Relations</p>
                 <p>Social Impact</p>
             </div>
-            <div>
+            <div class="resources">
                 <h4>Resources</h4>
                 <p>Contact</p>
                 <p>Give feedback</p>
@@ -293,51 +278,5 @@
                 <p>Privacy Policy</p>
             </div>
         </footer>
-
-        <div class="footer">
-
-            <!-- <table>
-                
-                <td>
-                    <p id="company-description"> 
-                        Solution for easy and flexible
-                        house hunting. You can trust us
-                        anywhere through this platform.
-                    </p>
-                </td>
-                <tr>
-                    <th id="company-name">Vallie's Estate</th>
-                    <th>Property</th>
-                    <th>About</th>
-                    <th>Resources</th>
-                </tr>
-                <tr>
-                    <td>Property</td>
-                    <td>About</td>
-                    <td>Resources</td>
-                </tr>
-                <tr>
-                    <td>Learning Modules</td>
-                    <td>Our Company</td>
-                    <td>Contact</td>
-                </tr>
-                <tr>
-                    <td>Partnership</td>
-                    <td>Career</td>
-                    <td>Give feedback</td>
-                </tr>
-                <tr>
-                    <td>Watch demo</td>
-                    <td>Investors Relations</td>
-                    <td>System Status</td>
-                </tr>
-                <tr>
-                    <td>Event</td>
-                    <td>Social Impact</td>
-                    <td>Privacy Policy</td>
-                </tr>
-            </table> -->
-        </div>
-        
     </body>
 </html>
