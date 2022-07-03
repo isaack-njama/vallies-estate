@@ -492,15 +492,6 @@ a {
     display: flex;
 }
 
-
-
-
-
-
-
-
-
-
 #container {
     display: flex;
     text-align: center;
@@ -525,9 +516,6 @@ a {
     display: inline;
     text-align: justify;
 }
-
-
-
 
 #products {
     text-align: left;
@@ -583,17 +571,11 @@ a {
     color: #2549D3;
 }
 
-
-
 /* img.preference {
     float: left;
 } */
 
-
-
-
 /* Footer */
-
 
 footer {
     position: absolute;
@@ -646,39 +628,6 @@ footer {
     bottom: 200px;
     right: 150px;
 }
-
-/* .footer {
-    font-family: 'Space Grotesk', sans-serif;
-    text-align: center;
-    display: flex;
-    margin: 5px;
-    background-color: #2549D3;
-    justify-content: center;
-    margin-top: 25px;
-}
-
-table, tr, td {
-    border-collapse: separate;
-    border-spacing: 5px;
-}
-
-td, th {
-    width: 25vh;
-    height: 5vh;
-    vertical-align: middle;
-}
-
-#brand-name {
-    text-align: left;
-    font-family: 'Oleo Script', cursive;
-}
-
-#company-description {
-    display: inline;
-    text-align: left;
-    font-family: 'Space Grotesk', sans-serif;
-} */
-
 
 /* 0F298B */
 /* 2549D3 */
