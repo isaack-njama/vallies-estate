@@ -1,8 +1,12 @@
-/* Navbar */
+body {
+    background-color: #FAFAFA;
+}
+
+/* =============== Navbar ================= */
 
 .navbar {
     display: inline;
-    margin: 20px;
+    margin: 50px;
     padding: 50px;
     border: 30px;
 }
@@ -40,9 +44,33 @@ a {
     font-weight: bold;
 }
 
+.navbar a.start{
+    font-family: 'Space Grotesk', sans-serif;
+    float: right;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: #2549D3;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
 
-body {
-    background-color: #FAFAFA;
+/* ================ Intro section ============================ */
+
+.intro {
+    margin: 20px;
+    
+}
+
+.img1 {
+    position: absolute;
+    top: 140px;
+    right: 30px;
+    float: right;
+    width: 660px;
+    height: 480px;
+    display: flex;
 }
 
 .help {
@@ -54,7 +82,7 @@ body {
     color: #0F298B;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 75px;
 }
 
 #quality {
@@ -62,8 +90,416 @@ body {
     display: block;
     /* padding: 5px 5px 10px 10px; */
     padding: 10px 0 40px 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
+
+#learn-more {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: inline;
+    background-color: #2549D3;
+    color: white;
+    border-radius: 10px;
+    font-size: small;
+    padding: 16px;
+    margin-right: 10px;
+    margin-top: 80px;
+    position: absolute;
+    left: 80px;
+    top: 540px;
+    text-decoration: none;
+}
+
+.fa, .fa-play-circle, .fa2x {
+    display: inline;
+    color: #0F298B;
+    position: absolute;
+    left: 220px;
+    top: 630px;
+}
+
+
+/* ==================Product Section====================== */
+
+.product-section {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 30px;
+    padding: 50px;
+}
+
+
+.deck {
+    height: 25vh;
+    margin: 100px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin: 80px;
+  }
+
+.card1 {
+    background-color: white;
+    flex-basis: 25%;
+    margin-top: -14%;
+    margin-top: -5%;
+    padding: 40px 10px 40px 30px;
+    height: fit-content;
+    width: 800px;
+  }
+
+.card-img-top {
+    display: block;
+    width: 120px;
+    height: 180px;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+    margin: 20px;
+}
+
+.card-body {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.card-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: block;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+/* ================ Why choose us section ======================= */
+.img2 {
+    float: left;
+    position: absolute;
+    left: -80px;
+    width: 640px;
+    height: 400px;
+    margin: 160px;
+}
+
+.preference {
+    padding: 180px;
+    display: block;
+    position: absolute;
+    right: 150px;
+    top: 1400px;
+}
+
+#why-choose-us {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: x-large;
+    color: #0F298B;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+#preference-description {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-weight: lighter;
+    position: absolute;
+    padding: 20px;
+    right: -55px; 
+}
+
+.fa-check-square-o {
+    float: right;
+    color: #2549D3;
+    position: absolute;
+    top: 1200px;
+    right: 900px;
+    margin: 600px;
+}
+
+#world-class {
+    font-family: 'Space Goretsk', sans-serif;
+    color: black;
+    float: right;
+    position: absolute;
+    top: 600px;
+    right: 80px;
+    margin: -600px 1000px;
+    padding: 0px 0px  0px 1000px;
+}
+
+#amenities {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    position: absolute;
+}
+
+/* =================Featured Properties section================ */
+
+.featured {
+    position: absolute;
+    top: 1800px;
+    right: 300px;
+    padding: 200px;
+}
+
+#featured-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 100%;
+    font-size: larger;
+    color: #2549D3;
+    text-align: center;
+    margin: 30px -60px;
+    padding: 100px;
+}
+
+#featured-description {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-weight: lighter;
+}
+
+.card1-featured {
+    position: absolute;
+    float: right;
+    top: 2100px;
+    left: 100px;
+    width: 150px;
+    height: 100px;
+    margin: 160px 10px;
+
+}
+
+.card2-featured {
+    position: absolute;
+    top: 2100px;
+    left: 600px;
+    width: 150px;
+    height: 100px;
+    margin: 160px 10px;
+}
+
+.card3-featured {
+    position: absolute;
+    float: right;
+    top: 2100px;
+    right: 300px;
+    width: 150px;
+    height: 100px;
+    margin: 160px 10px;
+}
+
+.card-img-top-featured {
+    width: 320px;
+    height: 160px;
+}
+
+.card-title-featured {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.card-text-featured {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: lighter;
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    top:200px;
+}
+
+.card-type-featured1 {
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 270px;
+}
+
+.card-type-featured2 {
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    top: 170px;
+    right: -170px;
+}
+
+.card-type-featured3 {
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    top: 170px;
+    right: -170px;
+}
+
+.card-price-featured1 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0F298B;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+.card-price-featured2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0F298B;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+.card-price-featured3 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0F298B;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+#view-more {
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    top: 2350px;
+    right: 130px;
+    font-size: large;
+    background-color: #2549D3;
+    color: white;
+    padding: 5px;
+    margin: 150px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* Esteemed Customers cards */
+.customer-review {
+    position: absolute;
+    top: 2400px;
+    right: 450px;
+    padding: 200px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#reviews {
+    color: #0F298B;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#reviews-description {
+    position: absolute;
+    right: 260px;
+    font-size: larger;
+}
+
+.deck-reviews {
+    position: absolute;
+    top: 2800px;
+    display: flexbox;
+}
+
+
+.card1-review {
+    position: absolute;
+    top: -50px;
+    left: 200px;
+    width: 100vh;
+    row-gap: 20vh;
+    box-shadow: 10px;
+}
+
+.card2-review {
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    width: 100vh;
+}
+
+.card3-review {
+    position: absolute;
+    top: -50px;
+    left: 1000px;
+    width: 100vh;
+}
+
+
+
+#view-more {
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    top: 2350px;
+    right: 130px;
+    font-size: large;
+    background-color: #2549D3;
+    color: white;
+    padding: 5px;
+    margin: 150px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column {
+    width: 5px;
+    height: 10px;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;    
+}
+
+.card-body {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
 
 #container {
     display: flex;
@@ -90,6 +526,9 @@ body {
     text-align: justify;
 }
 
+
+
+
 #products {
     text-align: left;
     color: #0F298B;
@@ -102,17 +541,9 @@ body {
 
 #product-subheading {
     text-align: center;
+    color: grey;
 }
 
-#why-choose-us {
-    font-family: 'Space Grotesk', sans-serif;
-    color: #0F298B;
-    font-weight: bolder;
-}
-
-#preference-description {
-    font-family: 'Space Grotesk', sans-serif;
-}
 
 #featured-text {
     font-family: 'Space Grotesk', sans-serif;
@@ -136,74 +567,8 @@ body {
 
 /* Images */
 
-.img1 {
-    position: absolute;
-    top: 120px;
-    right: 30px;
-    float: right;
-    width: 720px;
-    height: 480px;
-    display: flex;
-}
-
-.address-mark {
-    width: 50px;
-    height: 50px;
-}
-
-.payment {
-    width: 50px;
-    height: 50px;
-}
-
-.secure {
-    width: 50px;
-    height: 50px;
-}
-
-.palace {
-    width: 150px;
-    height: 100px;
-}
-
-.ivy-rory {
-    width: 150px;
-    height: 100px;
-}
-
-.rexona {
-    width: 150px;
-    height: 100px;
-}
-
 
 /* Buttons */
-
-.navbar a.start{
-    font-family: 'Space Grotesk', sans-serif;
-    float: right;
-    font-size: large;
-    background-color: #2549D3;
-    color: white;
-    border-radius: 5px;
-}
-
-#learn-more {
-    font-family: 'Space Grotesk', sans-serif;
-    display: inline;
-    background-color: #0F298B;
-    color: white;
-    border-radius: 5px;
-    font-size: small;
-    padding: 16px;
-    margin-right: 10px;
-    margin-top: 30px;
-}
-
-.fa .fa-play-circle {
-    display: block;
-    size: 500px;
-}
 
 .fa .fa-search {
     font-family: 'Space Grotesk', sans-serif;
@@ -217,7 +582,6 @@ body {
 .btn, .btn-primary {
     color: #2549D3;
 }
-y
 
 
 
@@ -225,58 +589,62 @@ y
     float: left;
 } */
 
-/* Esteemed Customers cards */
-.column {
-    width: 25%;
-    padding: 0 10px;
-}
 
-.row {
-    margin: 0 -5px;
-    display: block;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;    
-}
 
 
 /* Footer */
 
 
 footer {
+    position: absolute;
+    top: 3000px;
     font-family: 'Space Grotesk', sans-serif;
     color: white;
     text-align: center;
     background-color: #0F298B;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    margin: 40px;
+    width: 100%;
+    height: 60%;
 }
 
 .brand {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    /* position: absolute; */
+    /* bottom: 200px; */
+
 }
 
 #brand-name {
-    justify-content: flex-start;
     font-family: 'Oleo Script', cursive;
+    position: absolute;
+    bottom: 350px;
+    left: 100px;
 }
 
 #brand-description {
-    display: inline;
-    text-align: left;
     font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    bottom: 240px;
+    left: 90px;
+}
+
+.property {
+    position: absolute;
+    bottom: 200px;
+    left: 750px;
+}
+
+.about {
+    position: absolute;
+    bottom: 200px;
+    left: 1000px; 
+}
+
+.resources {
+    position: absolute;
+    bottom: 200px;
+    right: 150px;
 }
 
 /* .footer {
