@@ -4,6 +4,13 @@
 
 <br/>
 
+
+# Preview
+
+![](page-1.png)
+![](page-4.png)
+![](page-5.png)
+
 # Getting Started
 
 ### These instructions will get you a copy of the project on your local machine
