@@ -7,9 +7,9 @@
 
 # Preview
 
-![](page-1.png)
-![](page-4.png)
-![](page-5.png)
+![](./assets/vallie%20estate/page-1.png)
+![](./assets/vallie%20estate/page-4.png)
+![](./assets/vallie%20estate/page-5.png)
 
 # Getting Started
 
