@@ -2,6 +2,7 @@
   "name": "vallies-estate",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://isaack-njama.github.io/vallies-estate",
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.0.0",
