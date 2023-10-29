@@ -40,13 +40,13 @@ export const Properties = () => {
                           height={32}
                         />
                         <Flex gap={16}>
-                          <Heading size="md" pl={6}>
+                          <Heading size="md" pl={6} color='black'>
                             The Palace
                           </Heading>
-                          <Text>Duplex</Text>
+                          <Text color='gray'>Duplex</Text>
                         </Flex>
                         <Flex direction="row" gap={16}>
-                          <Text pl={6}>Lekki, Phase 2</Text>
+                          <Text pl={6} color='gray'>Lekki, Phase 2</Text>
                           <Text color="blue">$2000</Text>
                         </Flex>
                       </Stack>
@@ -69,13 +69,13 @@ export const Properties = () => {
                           height={32}
                         />
                         <Flex gap={16}>
-                          <Heading size="md" pl={6}>
+                          <Heading size="md" pl={6} color='black'>
                             IVY RORY
                           </Heading>
-                          <Text>Duplex</Text>
+                          <Text color='gray'>Duplex</Text>
                         </Flex>
                         <Flex direction="row" gap={16}>
-                          <Text pl={6}>Lekki, Phase 2</Text>
+                          <Text pl={6} color='gray'>Lekki, Phase 2</Text>
                           <Text color="blue">$2000</Text>
                         </Flex>
                       </Stack>
@@ -98,13 +98,13 @@ export const Properties = () => {
                           height={32}
                         />
                         <Flex gap={24}>
-                          <Heading size="md" pl={6}>
+                          <Heading size="md" pl={6} color='black'>
                             Rexona
                           </Heading>
-                          <Text>Duplex</Text>
+                          <Text color='gray'>Duplex</Text>
                         </Flex>
                         <Flex direction="row" gap={16}>
-                          <Text pl={6}>Lekki, Phase 2</Text>
+                          <Text pl={6} color='gray'>Lekki, Phase 2</Text>
                           <Text color="blue">$2000</Text>
                         </Flex>
                       </Stack>

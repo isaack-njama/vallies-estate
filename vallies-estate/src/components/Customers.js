@@ -17,7 +17,7 @@ export const Customers = () => {
           >
             <CardHeader>
                 <Heading color="blue">Our Esteemed Customers</Heading>
-                <Text>This is what our clients are saying</Text>
+                <Text color='gray'>This is what our clients are saying</Text>
             </CardHeader>
             <Flex direction="row" fontSize="md" mt={20} m="auto">
               <Card background="white" borderRadius="5px" cursor='pointer'>
@@ -26,9 +26,9 @@ export const Customers = () => {
                     pt={4}
                   >
                     <Stack>
-                        <Heading size='md'>Alex Godwin</Heading>
-                        <Text>South Africa</Text>
-                        <Text>
+                        <Heading size='md' color='black'>Alex Godwin</Heading>
+                        <Text color='black'>South Africa</Text>
+                        <Text color='gray'>
                             Lorem ipsum dolor sit amet, <br />
                             consectetur adipiscing elit. Fames ut <br /> 
                             dictumst urna, lorem nibh. Pretium leo <br />
@@ -49,9 +49,9 @@ export const Customers = () => {
                     pt={4}
                   >
                     <Stack>
-                        <Heading size='md'>Alex Godwin</Heading>
-                        <Text>South Africa</Text>
-                        <Text>
+                        <Heading size='md' color='black'>Alex Godwin</Heading>
+                        <Text color='black'>South Africa</Text>
+                        <Text color='gray'>
                             Lorem ipsum dolor sit amet, <br />
                             consectetur adipiscing elit. Fames ut <br /> 
                             dictumst urna, lorem nibh. Pretium leo <br />
@@ -72,9 +72,9 @@ export const Customers = () => {
                     pt={4}
                   >
                     <Stack>
-                        <Heading size='md'>Alex Godwin</Heading>
-                        <Text>South Africa</Text>
-                        <Text>
+                        <Heading size='md' color='black'>Alex Godwin</Heading>
+                        <Text color='black'>South Africa</Text>
+                        <Text color='gray'>
                             Lorem ipsum dolor sit amet, <br />
                             consectetur adipiscing elit. Fames ut <br /> 
                             dictumst urna, lorem nibh. Pretium leo <br />

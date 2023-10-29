@@ -10,16 +10,17 @@ import {
 
 export function Footer() {
   return (
-    <Box color={"white"} bg='blue'>
+    <Box color={"white"} bg='blue' h="100%">
       <Container
         as={Stack}
         maxW={"6xl"}
-        py={8}
+        py={16}
+        pl={2}
+        ml={40}
         direction={{ base: "column", md: "row" }}
-        spacing={4}
         justify={{ base: "center", md: "space-between" }}
       >
-        <Stack direction={"column"} spacing={3}>
+        <Stack direction={"column"} spacing={3} textAlign="left">
             <Heading>Vallie's Estate</Heading>
             <Text fontSize="lg" fontFamily="heading">
                 Solution for easy and flexible <br />

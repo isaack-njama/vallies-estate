@@ -4,7 +4,7 @@ import { ChevronDownIcon, SearchIcon } from '@chakra-ui/icons';
 export const SearchCard = () => {
     return (
         // <Flex direction='row'>
-            <Card direction='row' m={20} p={10} gap={35}>
+            <Card direction='row' mt={16} ml={72} p={8} w="60%">
                 <Flex direction='column'>
                     <Heading color='blue'>
                         Location <ChevronDownIcon />
@@ -25,7 +25,7 @@ export const SearchCard = () => {
                     </Heading>
                     <Text>$10,000</Text>
                 </Flex>
-                <Button bg='blue' color={'white'} m={5} w="120px">
+                <Button bg='blue' color={'white'} m={5} w="160px" ml={24}>
                     <SearchIcon m={5} /> Search
                 </Button>
             </Card>

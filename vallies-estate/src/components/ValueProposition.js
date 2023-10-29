@@ -5,11 +5,11 @@ import BeautifulHouse from "../assets/images/image 2.png";
 export const ValueProposition = () => {
 
   return (
-    <Flex justify='space-between'>
-        <Box top={2}>
+    <Flex>
+        <Box top={2} ml={40} pl={2}>
             <Image src={BeautifulHouse} alt="Banner House" width={700} height={450} mr={8} />
         </Box>
-        <Box textAlign='left' pl={8}>
+        <Box textAlign='left' ml={40} pt={24}>
             <Heading color="blue">
                 Why you should choose us.
             </Heading>

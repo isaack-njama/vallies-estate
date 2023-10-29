@@ -9,7 +9,7 @@ export const Products = () => {
 
   return (
     <Center>
-      <Stack justify="space-between" pt={8} mt={12} mb={16}>
+      <Stack justify="space-between" pt={8} mt={12}>
         <VStack pt={6}>
           <Card
             borderRadius="5px"
@@ -18,13 +18,12 @@ export const Products = () => {
             h="500px"
             mb={8}
           >
-
             <CardHeader>
                 <Heading size="lg" color="blue" mt={6} textAlign="left">
                     Our Products
                 </Heading>
                 <Heading color="blue">How it works.</Heading>
-                <Text>This is how our products work</Text>
+                <Text color='gray'>This is how our products work</Text>
             </CardHeader>
             <Flex direction="row" fontSize="md" mt={20} m="auto">
               <Card background="white" borderRadius="5px" cursor='pointer'>
@@ -37,7 +36,7 @@ export const Products = () => {
                     </Center>
                     <Stack>
                         <Heading size='md'>Find Home</Heading>
-                        <Text>
+                        <Text color='gray'>
                             Our properties are located at <br />
                             prime areas where by there <br /> 
                             won't be problem with <br />
@@ -62,7 +61,7 @@ export const Products = () => {
                     </Center>
                     <Stack>
                         <Heading size='md'>Make payments</Heading>
-                        <Text>
+                        <Text color='gray'>
                             Our estates come with <br />
                             good network, portable <br /> 
                             water, 24hrs light and round <br />
@@ -87,7 +86,7 @@ export const Products = () => {
                     </Center>
                     <Stack>
                         <Heading size='md'>Make it Official</Heading>
-                        <Text>
+                        <Text color='gray'>
                             We have been in business for <br />
                             over 32 years, for client <br /> 
                             outside the country you can <br />
