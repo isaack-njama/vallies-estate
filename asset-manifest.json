@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/static/js/main.4bc35cab.js",
+    "static/media/image 2.png": "/static/media/image 2.23225bc7d3a413ffc7fd.png",
+    "static/media/image 1.png": "/static/media/image 1.93e038cc597082713927.png",
+    "static/media/image 3.png": "/static/media/image 3.5259e10762872e0989ca.png",
+    "static/media/image 4.png": "/static/media/image 4.147e687ef27f172161d9.png",
+    "static/media/Smart house.png": "/static/media/Smart house.9c9e753f815a27caa4e4.png",
+    "static/media/Secure data protection with fingerprint and lock.png": "/static/media/Secure data protection with fingerprint and lock.cecc3f94df7a4238ece3.png",
+    "index.html": "/index.html",
+    "main.4bc35cab.js.map": "/static/js/main.4bc35cab.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4bc35cab.js"
+  ]
+}
